@@ -1,24 +1,16 @@
-# project-2-template
+## Описание проекта
 
-## Project setup
-```
-yarn install
-```
+### Используемые технологии
+Для данного проекта использовались технологии:
+* Фреймворк Vue.js
+    * c системой хранения данных на клиентской части приложения Vuex
+    * библиотека Vue-router
+* платформа для деплоя приложения `vercel`
+* сборщик фронтеда webpack
+* стили CSS
+* `JavaScript` библиотека Axios для получения данных с API
+* менеджер пакетов `Yarn`
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Как запустить:
+* В корневом каталоге через оболочку командной строки запускаем json-сервер с данными о товарах командой: `json-server --watch db.json`
+* Запускаем проект командой: `run server`
